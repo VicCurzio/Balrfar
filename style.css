@@ -42,7 +42,13 @@ footer {
 }
 
 #footerTablero {
-    margin-top: 44.3vh;
+    margin-top: 26vh;
+}
+
+@media screen and (max-width: 577px) {
+    #footerTablero {
+        margin-top: 19vh;
+    }
 }
 
 /*Aventurero y Master - pagina */
@@ -88,7 +94,7 @@ form {
     }
 }
 
-.cartasAventurero {
+.cartasAventurero, .cartasMaster, .creaturaCard, .aventureroCard {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -108,7 +114,7 @@ form {
 }
 
 @media screen and (max-width: 576px) {
-    .aventureroCard {
+    .aventureroCard, .creaturaCard {
         width: 100%;
     }
 

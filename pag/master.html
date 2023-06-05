@@ -49,22 +49,22 @@
     <main>
         <div class="container-fluid">
             <h2 class="mt-5 tituloJugador mb-5">Creación de creaturas</h2>
-            <form class="was-validated mb-5 text-center" id="masterFormulario">
+            <form class="was-validated mb-5 text-center">
                 <div class="mb-3 mt-5 mx-3">
                     <label for="masterCreacion" class="form-label">Creación:</label>
                     <select class="form-select" name="enemigos" id="masterCreacion" value="enemigos">
                         <option hidden>Seleccionar monstruo...</option>
-                        <option value="Goblin">Goblin</option>
-                        <option value="Orco">Orco</option>
-                        <option value="Mago orco">Mago orco</option>
+                        <option value="Goblin" id="goblin">Goblin</option>
+                        <option value="Orco" id="orco">Orco</option>
+                        <option value="Mago orco" id="magoOrco">Mago orco</option>
                     </select>
                 </div>
                 <button type="submit" class="btn btn-dark mx-3" id="btnMasterCrear">Crear</button>
-                <!-- <button type="reset" class="btn btn-dark" id="btnMasterBorrar">Borrar</button> -->
             </form>
         </div>
+        <div class="cartasMaster"></div>
     </main>
-    <footer class="p-3 bg-dark text-white text-center">
+    <footer class="p-4 bg-dark text-white text-center">
         <p>© Todos los derechos reservados por copyright</p>
         <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook redes"></i></a>
         <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter redes"></i></a>
@@ -79,3 +79,4 @@
 </body>
 
 </html>
+<!-- <script src="../js/master.js"></script> -->

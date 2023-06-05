@@ -18,6 +18,6 @@ clasesAventurero.push(new Personaje("Ladron", 200, 50, 80, 150, "../img/aventure
 
 const enemigosCreaturas = []
 
-enemigosCreaturas.push(new Personaje("Goblin", 100, 0, 10, 10, "../img/master/goblin.jpg"))
-enemigosCreaturas.push(new Personaje("Orco", 550, 0, 100, 50, "../img/master/orco.jpg"))
+enemigosCreaturas.push(new Personaje("Goblin", 100, 10, 10, 10, "../img/master/goblin.jpg"))
+enemigosCreaturas.push(new Personaje("Orco", 550, 40, 100, 50, "../img/master/orco.jpg"))
 enemigosCreaturas.push(new Personaje("Mago orco", 350, 180, 170, 100, "../img/master/magoOrco.jpg"))
